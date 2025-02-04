@@ -25,7 +25,11 @@ SELECT
         WHEN UPPER(TRIM(prd_line)) = 'M' THEN 'main'
         WHEN UPPER(TRIM(prd_line)) = 'R' THEN 'Road'
         WHEN UPPER(TRIM(prd_line)) = 'S' THEN 'singapore'
+<<<<<<< HEAD
         WHEN UPPER(TRIM(prd_line)) = 'T' THEN 'table'
+=======
+        WHEN UPPER(TRIM(prd_line)) = 'T' THEN 'Tea'
+>>>>>>> a0665accdf3187a4f02fbbcc38b3bb42241167b3
         ELSE 'NOT APPLICALBE'
     END AS prd_line,
     prd_start_dt,
