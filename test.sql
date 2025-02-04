@@ -25,7 +25,7 @@ SELECT
         WHEN UPPER(TRIM(prd_line)) = 'M' THEN 'main'
         WHEN UPPER(TRIM(prd_line)) = 'R' THEN 'Road'
         WHEN UPPER(TRIM(prd_line)) = 'S' THEN 'singapore'
-        WHEN UPPER(TRIM(prd_line)) = 'T' THEN 'Task'
+        WHEN UPPER(TRIM(prd_line)) = 'T' THEN 'table'
         ELSE 'NOT APPLICALBE'
     END AS prd_line,
     prd_start_dt,
