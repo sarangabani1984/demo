@@ -24,7 +24,7 @@ SELECT
     CASE 
         WHEN UPPER(TRIM(prd_line)) = 'M' THEN 'main'
         WHEN UPPER(TRIM(prd_line)) = 'R' THEN 'Road'
-        WHEN UPPER(TRIM(prd_line)) = 'S' THEN 'Other Sales'
+        WHEN UPPER(TRIM(prd_line)) = 'S' THEN 'singapore'
         WHEN UPPER(TRIM(prd_line)) = 'T' THEN 'Touring'
         ELSE 'NOT APPLICALBE'
     END AS prd_line,
