@@ -22,7 +22,7 @@ SELECT
     ISNULL(prd_cost, 0) AS prd_cost,
     -- Transform prd_line values to more descriptive text
     CASE 
-        WHEN UPPER(TRIM(prd_line)) = 'M' THEN 'Mountain'
+        WHEN UPPER(TRIM(prd_line)) = 'M' THEN 'main'
         WHEN UPPER(TRIM(prd_line)) = 'R' THEN 'Road'
         WHEN UPPER(TRIM(prd_line)) = 'S' THEN 'Other Sales'
         WHEN UPPER(TRIM(prd_line)) = 'T' THEN 'Touring'
